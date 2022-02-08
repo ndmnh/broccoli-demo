@@ -3,7 +3,7 @@ import { Text } from '@medly-components/core';
 import React from 'react';
 import { Props } from './types';
 
-export const Dashboard: React.SFC<Props> = ({ isLoading }) => (
+export const Dashboard: React.FC<Props> = ({ isLoading }) => (
     <PageContent isLoading={isLoading}>
         <Text textWeight="Strong" textVariant="body1">
             Dashboard Content

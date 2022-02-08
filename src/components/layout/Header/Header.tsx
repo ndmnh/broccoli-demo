@@ -3,7 +3,7 @@ import { WithStyle } from '@medly-components/utils';
 import React from 'react';
 import * as Styled from './Header.styled';
 
-export const Header: React.SFC & WithStyle = () => {
+export const Header: React.FC & WithStyle = () => {
     return (
         <Styled.Header>
             <Styled.LeftSide>
